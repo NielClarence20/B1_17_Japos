@@ -11,6 +11,10 @@ body {
     box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.6);
     width: 100%;
 }
+.script {
+    text-align:left;
+    font-size: 12px;
+}
 
 .biodata {
     background-color: rgb(244, 240, 255);
