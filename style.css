@@ -12,8 +12,6 @@ body {
     width: 100%;
 }
 
-
-
 .biodata {
     background-color: rgb(244, 240, 255);
     display: flex;
@@ -25,8 +23,9 @@ body {
     box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.6);
 }
 
-
-
+.biodata p {
+    margin-left: 40px;
+}
 
 .bio {
     background-color: aliceblue;
@@ -48,5 +47,45 @@ body {
     right: 265px;
     font-weight: 350;
     text-align: left;
+}
+
+.aud {
+    position: fixed;
+    right: 40px;
+    top: 200px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: block;
+    padding: 20px;
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.6);
+}
+
+.aud p {
+    font-weight: 500;
+    text-align: center;
+}
+
+.vid {
+    position: fixed;
+    right: 40px;
+    top: 360px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: block;
+    padding: 20px;
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.6);
+    width: 300px;
+    height: 200px;
+}
+
+.vid video {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.vid p {
+    font-weight: 500;
+    text-align: center;
 }
 
