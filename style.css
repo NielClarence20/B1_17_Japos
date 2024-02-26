@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma;
+    background-color:antiquewhite;
+}
+
+.titles {
+    text-align: center;
+    font-size: 12px;
+    position: fixed;
+    background-color: rgb(121, 197, 168);
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+.script {
+    text-align:left;
+    font-size: 12px;
+}
+
+.biodata {
+    background-color: rgb(244, 240, 255);
+    display: flex;
+    position: fixed;
+    left: 100px;
+    top: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+.bio {
+    background-color: aliceblue;
+    box-shadow: 4px 5px 12px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    width: 918px;
+    position: fixed;
+    left: 210px;
+    top: 130px;
+    text-align: center;
+}
+
+.details {
+    font-weight: 500;
+    text-align: right;
+}
+
+.data {
+    right: 265px;
+    font-weight: 350;
+    text-align: left;
+}
+
